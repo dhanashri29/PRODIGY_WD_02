@@ -1,0 +1,45 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #31394c;
+    color: #ffffff;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    /* line-height: 59px; */
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+  }
+
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+
+  .circle .time {
+    /* width: 270px;
+    height: 270px; */
+    border: #fff;
+    border-radius: 50%;
+  }
+
+  button {
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+
